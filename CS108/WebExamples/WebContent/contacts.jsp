@@ -22,7 +22,7 @@
 	<%
 		ArrayList<String> contacts = (ArrayList<String>)application.getAttribute("contacts");
 		for (String name : contacts) {
-			out.println(name);
+			out.println("  " + name);
 			out.println("<br />");
 		}
 	
